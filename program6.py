@@ -3,4 +3,4 @@
 
 name = "#@#@Elzero#@#@"
 
-print( name.strip( "#@" ) )
+print(name.strip("#@"))

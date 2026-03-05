@@ -3,7 +3,7 @@
 
 msg1 = "I <3 Python And Although <3 Elzero Web School"
 
-print( msg1.replace( "<3", "Love", 1 ) )
+print(msg1.replace("<3", "Love", 1))
 
 
 # Needed Output
@@ -11,4 +11,4 @@ print( msg1.replace( "<3", "Love", 1 ) )
 
 msg2 = "I <3 Python And Although <3 Elzero Web School"
 
-print( msg2.replace( "<3", "Love" ) )
+print(msg2.replace("<3", "Love"))
