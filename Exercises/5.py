@@ -12,6 +12,7 @@ soup = BeautifulSoup(response.text, "html.parser")
 countries = soup.find_all("div", class_="col-md-4 country")
 
 country_information = []
+
 for country in countries:
 
     name = country.find("h3", class_="country-name").text.strip()

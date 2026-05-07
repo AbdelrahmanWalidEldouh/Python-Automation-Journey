@@ -26,4 +26,4 @@ for page in range(1, 11):
 
 df = pd.DataFrame(books_)
 
-df.to_excel("books_.xlsx", index=False)
+df.to_csv("books.csv", index=False)
